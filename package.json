@@ -1,0 +1,23 @@
+{
+  "name": "mentoring-ajax",
+  "version": "1.0.0",
+  "description": "EPAM RD LAB mentoring. AJAX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchapliuk/mentoring-ajax.git"
+  },
+  "author": "Maksym Chapliuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchapliuk/mentoring-ajax/issues"
+  },
+  "homepage": "https://github.com/mchapliuk/mentoring-ajax#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  }
+}

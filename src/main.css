@@ -1,0 +1,31 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: 100px auto;
+}
+
+ul {
+    width: 30%;
+    float: left;
+}
+
+ul#examples li {
+    display: block;
+    list-style: none;
+    background-color: rgba(63, 81, 181, 0.15);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul#examples li > a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+ul#examples li > a:hover {
+    font-size: large;
+}

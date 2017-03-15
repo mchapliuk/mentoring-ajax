@@ -1,0 +1,17 @@
+form {
+    display: table;
+}
+
+form > div {
+    display: table-row;
+    margin: 10px;
+}
+
+form label {
+    display: table-cell;
+}
+
+form input {
+    display: table-cell;
+}
+
