@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST-GET</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+<div class="content-center">
+    <span style="display: inline-block; margin: 20px;">
+        <textarea name="output" id="output" cols="30" rows="10"></textarea>
+        <br/>
+        <button onclick="getCustomers()">Get Customers</button>
+        <br/>
+        <button onclick="elOutput.value = ''" type="button">Clear</button>
+    </span>
+
+    <form style="display: inline-block; margin: 20px;">
+        <input id="customer" type="text" name="customerName" placeholder="Customer Name"/><br/>
+        <input id="city" type="text" name="customerCity" placeholder="Customer City"/><br/>
+        <button type="button" onclick="addCustomer()">Add Customer</button>
+        <br>
+    </form>
+
+    <script src="app.js"></script>
+</div>
+</body>
+</html>
