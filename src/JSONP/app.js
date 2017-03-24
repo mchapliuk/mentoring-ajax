@@ -5,5 +5,6 @@ function getData() {
 }
 
 function parseData(data) {
+    debugger;
     console.log(JSON.stringify(data));
 }
